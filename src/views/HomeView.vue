@@ -54,8 +54,8 @@ import imageUrl from '@/assets/img/photo.webp'
         us if you would like to purchase any.
       </p>
       <WmffPriceGroup class="max-w-lg">
-        <WmffPriceGroupItem title="Chicken Egg" price="$5/dozen" />
-        <WmffPriceGroupItem title="Duck Egg" price="$6/dozen" />
+        <WmffPriceGroupItem title="Chicken Eggs" price="$5/dozen" />
+        <WmffPriceGroupItem title="Duck Eggs" price="$6/dozen" />
       </WmffPriceGroup>
       <p class="text-sm italic">
         Raw Milk Herd Shares will hopefully be available in the near future.
