@@ -8,6 +8,7 @@
     stroke-miterlimit="1.5"
     clip-rule="evenodd"
     viewBox="0 0 1940 1241"
+    class="text-gray-900 dark:text-white"
   >
     <path
       fill="none"
