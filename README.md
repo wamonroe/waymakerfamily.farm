@@ -1,37 +1,35 @@
 # waymakerfamily.farm
 
-A simple, framework-less, plain-old-HTML template using Tailwind CSS. Use it as
-a template for a simple landing page or as a starting point for something more.
+This template should help get you started developing with Vue 3 in Vite.
 
-## Development Environment
+## Recommended IDE Setup
 
-Install the dependencies:
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-```bash
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-Run the the development server:
+### Compile and Hot-Reload for Development
 
-```bash
+```sh
 npm run dev
 ```
 
-## Deploy
+### Compile and Minify for Production
 
-Run `npm run build` and then copy all the files and folders from `./dist` to the
-webhost.
+```sh
+npm run build
+```
 
-## Files
+### Lint with [ESLint](https://eslint.org/)
 
-This very simple project leverages [Vite.js](https://vitejs.dev) and
-[PostCSS](https://postcss.org) to build and minify the assets. It expects only
-three files:
-
-* `./src/index.html`
-* `./src/assets/styles/main.css`
-* `./src/assets/js/main.js`
-
-Any additional files referenced within any of these will automatically get
-included. For more information about the build process, see the documentation
-for Vite.js.
+```sh
+npm run lint
+```
