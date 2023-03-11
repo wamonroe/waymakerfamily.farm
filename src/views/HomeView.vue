@@ -5,6 +5,7 @@ import WmffPriceGroup from '../components/WmffPriceGroup.vue'
 import WmffPriceGroupItem from '../components/WmffPriceGroupItem.vue'
 import WmffQuote from '../components/WmffQuote.vue'
 import WmffSection from '../components/WmffSection.vue'
+import imageUrl from '@/assets/img/photo.webp'
 </script>
 
 <template>
@@ -13,7 +14,7 @@ import WmffSection from '../components/WmffSection.vue'
       "Whenever you turn to the right or to the left, your ears will hear this command behind you:
       'This is the way. Walk in it.'"
     </WmffQuote>
-    <WmffPhoto src="@/assets/img/photo.webp" class="w-full" />
+    <WmffPhoto :src="imageUrl" class="w-full" />
     <WmffSection title="About Us">
       <p>
         Hey we're Alex and Erica Monroe. We're so glad you found us here. We're a micro family farm
