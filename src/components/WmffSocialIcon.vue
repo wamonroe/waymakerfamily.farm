@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" class="font-bold text-blue-800 dark:text-blue-400 hover:underline">
+  <a :href="href" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
     <slot />
   </a>
 </template>
@@ -9,7 +9,7 @@ export default {
   props: {
     href: {
       type: String,
-      require: true
+      required: true
     }
   }
 }
