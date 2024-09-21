@@ -2,7 +2,6 @@
 import imageUrl from '@/assets/img/photo.webp'
 import WmffContent from '../components/WmffContent.vue'
 import WmffEmailToLink from '../components/WmffEmailToLink.vue'
-import WmffLink from '../components/WmffLink.vue'
 import WmffPhoto from '../components/WmffPhoto.vue'
 import WmffPriceGroup from '../components/WmffPriceGroup.vue'
 import WmffPriceGroupItem from '../components/WmffPriceGroupItem.vue'
@@ -45,10 +44,6 @@ import WmffQuote from '../components/WmffQuote.vue'
       </p>
     </WmffContent>
 
-    <WmffContent title="Meet the Animals">
-      <p>Coming soon</p>
-    </WmffContent>
-
     <WmffContent title="Current Products">
       <p>
         At this time our organic pasture raised chicken and duck eggs are for sale. Please contact
@@ -56,11 +51,8 @@ import WmffQuote from '../components/WmffQuote.vue'
       </p>
       <WmffPriceGroup class="max-w-lg">
         <WmffPriceGroupItem title="Chicken Eggs" price="$5/dozen" />
-        <WmffPriceGroupItem title="Duck Eggs" price="$6/dozen" />
+        <WmffPriceGroupItem title="Duck Eggs" price="$5/dozen" />
       </WmffPriceGroup>
-      <p class="text-sm italic">
-        Raw Milk Herd Shares will hopefully be available in the near future.
-      </p>
     </WmffContent>
 
     <WmffContent title="Contact Us!">
