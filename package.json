@@ -1,32 +1,35 @@
 {
+  "name": "waymakerfamily.farm",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "format": "prettier --write src/",
-    "check-updates": "npx npm-check-updates",
-    "do-updates": "npx npm-check-updates -u"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.1",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "@vitejs/plugin-vue": "^5.2.1",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.21.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-vue": "^9.32.0",
-    "globals": "^15.12.0",
-    "postcss": "^8.5.3",
-    "postcss-preset-env": "^10.1.5",
-    "prettier": "^3.5.2",
-    "tailwindcss": "^3.4.15",
-    "vite": "^5.4.11"
+    "@eslint/js": "^9.30.1",
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.4"
   }
 }

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "Lato", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    Segoe UI Symbol, "Noto Color Emoji";
+  --font-serif: "Belleza", ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+}
