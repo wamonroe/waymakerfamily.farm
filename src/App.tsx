@@ -1,10 +1,10 @@
+import AppFooter from "@/components/AppFooter";
+import AppSection from "@/components/AppSection";
+import Heading from "@/components/Heading";
+import Logo from "@/components/Logo";
 import { Outlet } from "react-router-dom";
-import AppFooter from "../components/AppFooter";
-import AppSection from "../components/AppSection";
-import Heading from "../components/Heading";
-import Logo from "../components/Logo";
 
-function Root() {
+const App = () => {
   return (
     <div className="flex flex-col items-center mb-4 space-y-4">
       <AppSection>
@@ -15,6 +15,6 @@ function Root() {
       <AppFooter />
     </div>
   );
-}
+};
 
-export default Root;
+export default App;
