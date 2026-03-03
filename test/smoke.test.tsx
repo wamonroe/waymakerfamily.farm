@@ -1,11 +1,11 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { describe, expect, it } from "vitest";
-import Content from "../components/Content";
-import Heading from "../components/Heading";
-import Quote from "../components/Quote";
-import Home from "../pages/Home";
-import NotFound from "../pages/NotFound";
+import Content from "../src/components/Content";
+import Heading from "../src/components/Heading";
+import Quote from "../src/components/Quote";
+import Home from "../src/pages/Home";
+import NotFound from "../src/pages/NotFound";
 
 describe("Heading", () => {
   it("renders text with default h1 tag", () => {
