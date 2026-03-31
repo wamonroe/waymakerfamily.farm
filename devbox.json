@@ -4,7 +4,8 @@
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
     "scripts": {
-      "test": ["bun run test"]
+      "test": ["bun run test"],
+      "setup": ["bun install"]
     }
   }
 }
